@@ -1,0 +1,13 @@
+.app {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(235, 235, 235);
+
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-user-drag: none;
+  overflow: hidden;
+}

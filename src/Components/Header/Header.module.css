@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap");
+.header {
+  position: absolute;
+  width: 100vw;
+  height: 7.9rem;
+  /* background-color: aqua; */
+  background: url(../../Assets/header.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+.heading {
+  box-sizing: border-box;
+  font-size: 3rem;
+  font-family: "Charmonman", cursive;
+  text-wrap: wrap;
+  text-align: center;
+  margin: 0;
+  padding: 0rem 0 0rem 0;
+}
+.ham {
+  box-sizing: border-box;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  margin: 0;
+  width: 2rem;
+  height: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s;
+}
+.ham:hover {
+  transform: scale(1.1);
+}
+.bar {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: black;
+  border-radius: 0.2rem;
+}

@@ -1,0 +1,26 @@
+.sidebar {
+  box-sizing: border-box;
+  height: 100%;
+  width: 22rem;
+  background-color: rgb(255, 255, 255);
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 999;
+  position: absolute;
+  padding-top: 8rem;
+  background: url(../../Assets/navbar-bg.png);
+  background-position: right;
+  background-size: cover;
+  transition: all.4s;
+}
+.active {
+  top: 0;
+  left: 0;
+}
+.inactive {
+  top: 0;
+  left: -22rem;
+}
