@@ -9,7 +9,6 @@ const Sidebar = (props) => {
   const sidebarCtx = useContext(sidepanelContext);
   const navigateTo = (event) => {
     const path = event.target.getAttribute("name");
-    console.log(path);
     navigate(`/${path}`);
   };
 
