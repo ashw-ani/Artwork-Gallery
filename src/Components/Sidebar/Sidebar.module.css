@@ -1,7 +1,7 @@
 .sidebar {
   box-sizing: border-box;
   height: 100%;
-  width: 22rem;
+  width: 23rem;
   background-color: rgb(255, 255, 255);
   background-position: right;
   display: flex;
@@ -10,17 +10,18 @@
   align-items: center;
   z-index: 999;
   position: absolute;
-  padding-top: 8rem;
-  background: url(../../Assets/navbar-bg.png);
+  padding-top: 10rem;
+  background: url(../../Assets/sidebar-2.png);
   background-position: right;
   background-size: cover;
-  transition: all.4s;
+  transition: all 1s;
+  padding-left: 2rem;
 }
 .active {
   top: 0;
-  left: 0;
+  left: -2rem;
 }
 .inactive {
   top: 0;
-  left: -22rem;
+  left: -25rem;
 }
