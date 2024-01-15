@@ -1,0 +1,65 @@
+.categories {
+  box-sizing: border-box;
+  min-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(222, 222, 222); */
+  display: flex;
+  padding: 8rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4rem;
+}
+.categorysection {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem 1rem;
+  margin-bottom: 6rem;
+  /* align-items: center; */
+  gap: 1rem;
+}
+.subtitle {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0rem;
+  color: #b85d1c;
+  margin: 1rem 0 2rem 0.5rem;
+}
+.text {
+  margin-top: 1rem;
+  padding: 0 3rem;
+  font-size: 2rem;
+  font-family: "Nothing You Could Do", cursive;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 5rem;
+  font-weight: 500;
+  user-select: none;
+  padding: 0 5rem;
+}
+.image {
+  width: 20rem;
+  height: auto;
+  position: sticky;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.885);
+}
+.image1 {
+  filter: blur(1px);
+  transform: translate(15%, 30%) rotate(-15deg);
+}
+.image2 {
+  filter: blur(1px);
+  transform: translate(75%, 30%) rotate(15deg);
+}
+.image3 {
+  transform: translate(-100%, 10%) rotate(0deg);
+}

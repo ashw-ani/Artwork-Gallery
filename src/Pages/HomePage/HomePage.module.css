@@ -1,13 +1,16 @@
 .home {
   box-sizing: border-box;
+  min-height: 100%;
+  max-width: 100%;
   width: 100%;
-  height: 200%;
-  background-color: rgb(222, 222, 222);
+  height: 100%;
+  /* background-color: rgb(222, 222, 222); */
   display: flex;
   padding: 8rem 1rem 0 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .subtitle {
   font-family: "Nothing You Could Do", cursive;
@@ -27,25 +30,26 @@
   text-align: center;
   margin-bottom: 5rem;
   font-weight: 400;
+  user-select: none;
 }
 .image {
   width: 16.5rem;
   height: auto;
-  position: absolute;
+  position: sticky;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.885);
 }
 .image1 {
-  transform: translate(-90%, 20%) rotate(-10deg);
+  transform: translate(40%, 20%) rotate(-10deg);
 }
 .image2 {
-  transform: translate(-95%, 120%) rotate(-10deg);
+  transform: translate(-45%, 120%) rotate(-10deg);
 }
 .image3 {
-  transform: translate(70%, 20%) rotate(10deg);
+  transform: translate(-0%, 20%) rotate(10deg);
 }
 .image4 {
-  transform: translate(0%, 80%) rotate(5deg);
+  transform: translate(-160%, 70%) rotate(5deg);
 }
 .image5 {
-  transform: translate(70%, 130%) rotate(5deg);
+  transform: translate(-170%, 130%) rotate(5deg);
 }

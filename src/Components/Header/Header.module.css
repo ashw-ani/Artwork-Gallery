@@ -2,6 +2,7 @@
 .header {
   position: absolute;
   width: 100vw;
+  max-width: 100vw;
   height: 7.9rem;
   /* background-color: aqua; */
   background: url(../../Assets/header.png);

@@ -3,8 +3,8 @@ import styles from "./App.module.css";
 import Header from "./Components/Header/Header";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import { Route, Routes } from "react-router-dom";
-import HomePage from "./Components/HomePage/HomePage";
-import Categories from "./Components/Categories/Categories";
+import HomePage from "./Pages/HomePage/HomePage";
+import Categories from "./Pages/Categories/Categories";
 import { useContext } from "react";
 import sidepanelContext from "./context/sidepanelContext";
 
@@ -16,8 +16,9 @@ function App() {
       <Sidebar />
       <div className={styles.main} onClick={sidebarctx.closeSidebar}>
         <Routes>
-          <Route path="/home" element={<HomePage />} />
-          <Route path="/categories" element={<Categories />} />
+          <Route path="/Home" element={<HomePage />} />
+          <Route path="/Categories" element={<Categories />} />
+          <Route path="/customer reviews" element={<Categories />} />
         </Routes>
       </div>
     </div>

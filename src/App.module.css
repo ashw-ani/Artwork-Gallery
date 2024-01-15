@@ -2,7 +2,7 @@
   box-sizing: border-box;
   height: 100vh;
   width: 100vw;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(206, 206, 206);
 
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -10,6 +10,11 @@
   background-size: cover;
   -webkit-user-drag: none;
   overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.app::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .main {
