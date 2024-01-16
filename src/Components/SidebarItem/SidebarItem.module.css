@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap");
 
 .sidebar_item {
-  width: 100%;
+  width: 80%;
   height: 3rem;
   font-size: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-left: 3rem;
+  padding-left: 0rem;
   margin-bottom: 1rem;
   font-family: "Charmonman", cursive;
   font-weight: bolder;
@@ -15,9 +15,10 @@
   cursor: pointer;
   transition: all.3s;
   user-select: none;
+  text-shadow: 1px 1px 3px rgba(59, 17, 0, 0.623);
 }
 
 .sidebar_item:hover {
-  color: #7a5000;
+  color: #422b00;
   transform: scale(1.03);
 }

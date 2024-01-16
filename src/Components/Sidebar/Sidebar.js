@@ -18,7 +18,7 @@ const Sidebar = (props) => {
         sidebarCtx.sidepanelStatus ? styles.active : styles.inactive
       }`}
     >
-      <SidebarItem title={"Home"} name={"Home"} onClick={navigateTo} />
+      <SidebarItem title={"Home"} name={""} onClick={navigateTo} />
       <SidebarItem
         title={"Categories"}
         name={"Categories"}

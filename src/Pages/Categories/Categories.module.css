@@ -12,6 +12,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 4rem;
+  user-select: none;
 }
 .categorysection {
   box-sizing: border-box;

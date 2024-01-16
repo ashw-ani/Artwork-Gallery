@@ -7,6 +7,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Categories from "./Pages/Categories/Categories";
 import { useContext } from "react";
 import sidepanelContext from "./context/sidepanelContext";
+import CustomerReviews from "./Pages/CustomerReviews/CustomerReviews";
 
 function App() {
   const sidebarctx = useContext(sidepanelContext);
@@ -16,9 +17,9 @@ function App() {
       <Sidebar />
       <div className={styles.main} onClick={sidebarctx.closeSidebar}>
         <Routes>
-          <Route path="/Home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/Categories" element={<Categories />} />
-          <Route path="/customer reviews" element={<Categories />} />
+          <Route path="/customer reviews" element={<CustomerReviews />} />
         </Routes>
       </div>
     </div>
