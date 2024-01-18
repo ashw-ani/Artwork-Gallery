@@ -34,22 +34,27 @@ const HomePage = (props) => {
       </TextContainer>
       <ImageContainer>
         <img
+          alt=""
           className={`${styles.image} ${styles.image1}`}
           src="https://i.ibb.co/k8ksgzK/sps.jpg"
         />
         <img
+          alt=""
           className={`${styles.image} ${styles.image2}`}
           src="https://i.ibb.co/10qRvRY/sanjay.jpg"
         />
         <img
+          alt=""
           className={`${styles.image} ${styles.image3}`}
           src="https://i.ibb.co/CbcKjnm/rg.jpg"
         />
         <img
+          alt=""
           className={`${styles.image} ${styles.image4}`}
           src="https://i.ibb.co/xsWWpS7/pks.jpg"
         />
         <img
+          alt=""
           className={`${styles.image} ${styles.image5}`}
           src="https://i.ibb.co/xJ5T9LJ/mr.jpg"
         />

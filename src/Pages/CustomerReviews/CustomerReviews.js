@@ -8,6 +8,7 @@ const CustomerReviews = (props) => {
       <div className={styles.review}>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} `}
             src="https://i.ibb.co/s9VRZXz/aghori.jpg"
           />
@@ -25,6 +26,7 @@ const CustomerReviews = (props) => {
       <div className={styles.review}>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} `}
             src="https://i.ibb.co/xsWWpS7/pks.jpg"
           />
@@ -41,6 +43,7 @@ const CustomerReviews = (props) => {
       <div className={styles.review}>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} `}
             src="https://i.ibb.co/f8TQgBN/dj.jpg"
           />
@@ -57,6 +60,7 @@ const CustomerReviews = (props) => {
       <div className={styles.review}>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} `}
             src="https://i.ibb.co/qBV6WzM/kar.jpg"
           />

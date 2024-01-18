@@ -2,7 +2,7 @@ import { useContext } from "react";
 import SidebarItem from "../SidebarItem/SidebarItem";
 import styles from "./Sidebar.module.css";
 import sidepanelContext from "../../context/sidepanelContext";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = (props) => {
   const navigate = useNavigate();

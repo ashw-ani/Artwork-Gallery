@@ -1,4 +1,4 @@
-import PageTitle from "../../UI/PageTitle/PageTitle";
+// import PageTitle from "../../UI/PageTitle/PageTitle";
 import TextContainer from "../../UI/TextContainer/TextContainer";
 import styles from "./Categories.module.css";
 import Dividerline from "../../UI/Dividerlines/Dividerline";
@@ -21,14 +21,17 @@ const Categories = (props) => {
         </TextContainer>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} ${styles.image1}`}
             src="https://i.ibb.co/xJ5T9LJ/mr.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image2}`}
             src="https://i.ibb.co/xsWWpS7/pks.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image3}`}
             src="https://i.ibb.co/k8ksgzK/sps.jpg"
           />
@@ -38,14 +41,17 @@ const Categories = (props) => {
       <div className={styles.categorysection}>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} ${styles.image1}`}
             src="https://i.ibb.co/10qRvRY/sanjay.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image2}`}
             src="https://i.ibb.co/pQF3kFg/lara-pre.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image3}`}
             src="https://i.ibb.co/s9VRZXz/aghori.jpg"
           />
@@ -79,14 +85,17 @@ const Categories = (props) => {
         </TextContainer>
         <ImageContainer>
           <img
+            alt=""
             className={`${styles.image} ${styles.image1}`}
             src="https://i.ibb.co/f8TQgBN/dj.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image2}`}
             src="https://i.ibb.co/f8TQgBN/dj.jpg"
           />
           <img
+            alt=""
             className={`${styles.image} ${styles.image3}`}
             src="https://i.ibb.co/f8TQgBN/dj.jpg"
           />
