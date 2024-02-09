@@ -4,3 +4,29 @@
   background-color: #b85d1c;
   margin-bottom: 0.5rem;
 }
+@media screen and (max-width: 1024px) {
+  .line {
+    width: 40rem;
+    height: 1px;
+    background-color: #b85d1c;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .line {
+    width: 20rem;
+    height: 1px;
+    background-color: #b85d1c;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .line {
+    width: 15rem;
+    height: 1px;
+    background-color: #b85d1c;
+    margin-bottom: 0.5rem;
+  }
+}

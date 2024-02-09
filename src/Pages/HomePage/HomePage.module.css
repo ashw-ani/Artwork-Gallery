@@ -53,3 +53,47 @@
 .image5 {
   transform: translate(-170%, 130%) rotate(5deg);
 }
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 480px) {
+  .home {
+    padding: 6rem 1rem 0 1rem;
+  }
+  .subtitle {
+    margin: 1rem auto;
+  }
+  .text {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+  }
+  .image {
+    width: 7rem;
+    height: auto;
+    position: sticky;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.885);
+  }
+
+  .image1 {
+    transform: translate(25%, 20%) rotate(-10deg);
+  }
+  .image2 {
+    transform: translate(-75%, 120%) rotate(-10deg);
+  }
+  .image3 {
+    transform: translate(-15%, 20%) rotate(10deg);
+  }
+  .image4 {
+    transform: translate(-185%, 70%) rotate(5deg);
+  }
+  .image5 {
+    transform: translate(-195%, 130%) rotate(5deg);
+  }
+}
+
+@media screen and (max-width: 280px) {
+  /* Add styles for even smaller screens if necessary */
+}

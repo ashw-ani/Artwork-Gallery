@@ -16,6 +16,9 @@
 .app::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
+img {
+  pointer-events: none;
+}
 
 .main {
   width: 100%;

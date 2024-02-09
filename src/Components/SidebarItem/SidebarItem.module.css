@@ -22,3 +22,22 @@
   color: #422b00;
   transform: scale(1.03);
 }
+@media screen and (max-width: 480px) {
+  .sidebar_item {
+    width: 80%;
+    height: 3rem;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0rem;
+    margin-bottom: 1rem;
+    font-family: "Charmonman", cursive;
+    font-weight: bolder;
+    color: #1b1400;
+    cursor: pointer;
+    transition: all.3s;
+    user-select: none;
+    text-shadow: 1px 1px 3px rgba(59, 17, 0, 0.623);
+  }
+}

@@ -25,3 +25,33 @@
   top: 0;
   left: -25rem;
 }
+
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 20rem;
+    padding-top: 7rem;
+  }
+  .active {
+    top: 0;
+    left: -2rem;
+  }
+  .inactive {
+    top: 0;
+    left: -20rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .sidebar {
+    width: 18rem;
+    padding-top: 6rem;
+  }
+  .active {
+    top: 0;
+    left: -2rem;
+  }
+  .inactive {
+    top: 0;
+    left: -20rem;
+  }
+}

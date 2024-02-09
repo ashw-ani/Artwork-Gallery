@@ -1,6 +1,7 @@
 import sidepanelContext from "../../context/sidepanelContext";
 import styles from "./Header.module.css";
 import { useContext } from "react";
+
 const Header = (props) => {
   const sidebarctx = useContext(sidepanelContext);
 
